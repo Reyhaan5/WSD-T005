@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var n=parseFloat(prompt("Enter the number :","here"));
+        var i;
+        var flag=0;
+        if(n<=1)
+    {
+        document.write("Not a Prime Number ");
+    }
+    else if(n>1)
+{
+        for(i=2;i*i<n;i++)
+    {
+    if(n%i===0)
+    {
+     flag++;
+    }
+    }
+    if(flag>=1)
+    {
+     document.write("Not a Prime Number ");
+    }
+    else
+    {
+        document.write("Prime Number")
+    }
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

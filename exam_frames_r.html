@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #inner{
+            color: yellow;
+        }
+        table{
+        border:  blue;
+        }
+        
+    </style>
+</head>
+<body align="center">
+    <h3>Use Table In Websites</h3>
+    <caption>Nested Table </caption>
+    <table border="1px" align="center" border-colo>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Colspan Column</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan <br> cell </td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1px">
+                    <tr>
+                        <th id="inner">Inner Most <br> Column Heading <br> 1</th>
+                        <th id="inner">Inner Most <br> Column Hedaing <br> 2</th>
+                    </tr>
+                    <tr>
+                        <td>Innermost Data <br>Cell 1 </td>
+                        <td>Innermost Data <br>Cell 2 </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

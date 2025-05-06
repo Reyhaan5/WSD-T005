@@ -1,0 +1,21 @@
+<html>
+<body>
+<table border ="1"  >
+<tr>
+<td colspan="4" align="center">Learning Scheme</td>
+<td rowspan="3">Credits</td>
+<td colspan="9">Assesment Sceme</td>
+</tr>
+<tr>
+<td colspan="3" align="center">Actual contact Hrs./Week</td>
+<td rowspan="2" align="center">Self-Learning (SL^)(Term Work +Assignment)(Hrs)</td>
+<td rowspan="2" align="center">Paper Duration(Hrs.)</td>
+<td colspan="3" rowspan="2" align="center" >Theory (Marks)</td>
+<td colspan="3">Based on LL & TL</td>
+<td rowspan="2" align="center">Based on Self learning</td>
+<td rowspan="2">Total Marks</td>
+
+</tr>
+</table>
+</body>
+</html>

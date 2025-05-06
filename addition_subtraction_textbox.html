@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script>
+        function add() {
+            var a, b, addition;
+            a = document.getElementById('n1').valueAsNumber;
+            b = document.getElementById("n2").valueAsNumber;
+            addition = a + b;
+            alert("Addition is = " + addition);
+        }
+
+        function sub() {
+            var a, b, subtract;
+            a = document.getElementById("n1").valueAsNumber;
+            b = document.getElementById("n2").valueAsNumber;
+            subtract = a - b;
+            alert("Subtraction is = " + subtract);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="n1" />
+    <input type="number" id="n2" />
+    <input type="button" onclick="add();" value="Click to add" />
+    <button onclick="sub();">Click to subtract</button>
+</body>
+</html>

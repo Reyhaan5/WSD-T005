@@ -1,0 +1,85 @@
+<htmL>
+
+<style>
+form{
+          background-color:#4dff4d
+}
+table{
+    border: 2px blue;
+}
+</style>
+<body>
+<form align="center" >
+
+<font color="#ff0000"><h2>Personal Details</h2></font>
+Name :
+<input type="text" name="_name" required />
+<br>
+<br>
+Passwords:
+<input type ="password" name ="_pass"/>
+<br>
+<br>
+Email id:
+<input type="text" name="_email_id"/>
+<br>
+<br>
+Gender
+<input type="radio" name="_gender" value="Male"/>MALE
+<input type="radio" name="_gender" value="Female"/>FEMALE
+<br>
+<br>
+Contacts:
+<input type="text" name="_contact" />
+<br>
+<font color="#ff0000"><h2>Education Qualification </h2></font>
+
+
+Degree:
+<select name="_degree">
+<option>--Select Group--</option>
+</select>
+<br>
+<br>
+Engineering:
+<select name="_engineering">
+<option value="">--Select Group--</option>
+</select>
+<br>
+<br>
+Hobbies:
+<input type="radio" name="_h"/>Playing chess
+<input type="radio" name="_h"/>Reading Books
+<br>
+<br>
+<font color="#ff0000"><h2>Address</h2></font>
+<textarea rows ="10" cols="70" name="_address">
+</textarea>
+<br>
+<br>
+Attach Resume:
+<input type="file" name="_resume" />
+<br>
+<br>
+<table align="center">
+<tr>
+
+<td>Public Transport:</td> 
+
+<td><select name="_publictransport" multiple>
+<optgroup label="Ground">
+<option value="">Train</option>
+<option value="">Bus</option>
+</optgroup>
+<optgroup label="Water">
+</optgroup>
+</select>
+</td>
+</tr>
+</table><BR><BR>
+<button type="submit">
+<img src="submit.jpg" alt="submit" width="200"/>
+</button>
+</form>
+</body>
+</html>

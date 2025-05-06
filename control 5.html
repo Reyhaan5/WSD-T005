@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        const m=[];
+        var i;
+        var j;
+        alert("Enter Marks for three subjects");
+        for(i=0;i<3;i++)
+    {
+        j=i+1;
+        m[i]=prompt("",+j+" Subject");
+    }
+    if(m[0]>m[1])
+    {
+        if(m[0]>m[2])
+    {
+        document.write(m[0]+"is the greatest");
+    }
+        else
+        {
+            document.write(m[2]+"is the greatest");
+        }
+    }
+    else 
+    {
+        if(m[1]>m[2])
+    {
+        document.write(m[1]+"is the greatest");
+    }
+    else if(m[1]<m[2])
+    {
+        document.write(m[2]+"is the greatest");
+    }
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+function getConfirmation()
+{
+let x=confirm("Do you want to continue !");
+if(x===true)
+{
+document.write("User wants to Continue ");
+}
+else
+{
+document.write("Terminating ");
+
+}
+}
+</script>
+</head>
+<body>
+<p>Click the following button to see the results</p>
+<form>
+<input type="button" onclick="getConfirmation()";/>click me
+</form>
+</body>
+</html>

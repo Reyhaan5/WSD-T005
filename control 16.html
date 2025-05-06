@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function validate()
+        {
+            var n=document.my.name.value;
+            var p=document.my.pass.value;
+            if(n==="")
+        {
+            alert("Name Cant be Black");
+            return false;
+        }
+        for(var i=0;i<p.length;i++)
+        {
+            for(var j=0;j<10;j++)
+        {
+            
+        }
+        if(p[i]!=="0" && p[i]!=="1" && p[i]!=="2" && p[i]!=="3" && p[i]!=="4" && p[i]!=="5" && p[i]!=="6" && p[i]!=="7" && p[i]!=="8" && p[i]!=="9" )
+        {
+            continue;
+        }
+        else
+        {
+            break;
+        }
+        }
+        }
+
+    </script>
+</head>
+<body>
+    <form name="my" method="get" onsubmit="return validate();">
+        Name:
+        <input type="text" name="name">
+        <br>
+        Password:
+        <input type="password" name="pass">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var n1,n2;
+        document.write("1.Addition"+"<br>");
+        document.write("2.Subtraction"+"<br>");
+        document.write("3.Multiplication"+"<br>");
+        document.write("4.Division"+"<br>");
+        var c = parseInt(prompt("Enter your choice from the menu."));
+
+        switch(c)
+        {
+            case 1:
+                {
+                n1 = parseFloat(prompt("Enter", "Number 1"));
+                n2 = parseFloat(prompt("Enter", "Number 2"));
+                document.write("Addittion = "+(n1+n2));
+                break;
+                }
+                
+            case 2:
+                {
+                    n1 = parseFloat(prompt("Enter", "Number 1"));
+                    n2 = parseFloat(prompt("Enter", "Number 2"));
+                document.write("Subtraction = "+(n1-n2));
+                break;
+                }
+                
+            case 3:
+                {
+                    n1 = parseFloat(prompt("Enter", "Number 1"));
+                    n2 = parseFloat(prompt("Enter", "Number 2"));
+                document.write("Multiplication = "+(n1*n2));
+                break;
+                }
+                
+            case 4:
+                {
+                    n1 = parseFloat(prompt("Enter", "Number 1"));
+                    n2 = parseFloat(prompt("Enter", "Number 2"));
+                document.write("Division = "+(n1/n2));
+                break;
+                }
+                
+            default:
+                {
+                    document.write("Wrong Input");
+                }
+                    
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

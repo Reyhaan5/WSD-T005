@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>File Upload Box </title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Your Address</legend>
+<table width="50%">
+<tr>
+<td>First Name</td>
+<td><input type="text" name="_firstname"/></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="last_name"/></td>
+</tr>
+<tr>
+<td>Street</td>
+<td><input type="text" name="_street"/></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="_City"/></td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>Additional Details</legend>
+<table width="50%">
+<tr>
+<td>Biography</td>
+<td><textarea rows="5" cols="50" name="_biography">
+Enter biography here</textarea></td>
+</tr>
+<tr>
+<td>Image</td>
+<td><input type="file" name="file_upload" accept="image/*"/></td>
+</tr>
+<tr>
+<td>Age Group</td>
+<td>
+<select name="age">
+<option value="0 to 9 years">0 to 9 years</option>
+<option value="10 to 9 years">10 to 19 years</option>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>Intrest</legend>
+<table width="50%">
+<tr>
+<td>Hobbies</td>
+<td><select name="_hobbies" multiple>
+<option value="">Playing Soccer</option>
+<option value="">Dancing</option>
+<option value="">Gardening</option>
+<option value="">Watching Movies</option>
+</select></td>
+</tr>
+<tr>
+<td>Favourate car?</td>
+<td><select name="_favcar">
+<option value="">Volvo<option>
+</select></td></tr>
+<tr>
+<td>
+Favourite Public transport?</td>
+<td>
+<select name="_publictransport" multiple>
+<optgroup label="Ground">
+<option value="">Train</option>
+<option value="">Bus</option>
+</optgroup>
+<optgroup label="Water">
+</optgroup>
+</td>
+</fieldset>
+
+</form>
+</body>
+</html>
